@@ -15,5 +15,5 @@ To include this theme in your plugin, use PHP code :
 add_action('admin_enqueue_scripts', 'kodex_admin_enqueue_scripts');
 function kodex_admin_enqueue_scripts(){
 	wp_enqueue_style('kodex_jqueryui', plugin_dir_url(__FILE__).'jqueryui/jquery-ui.min.css');
-	wp_enqueue_script('kodex_chaabi', plugin_dir_url(__FILE__).'script.js', array('jquery', 'jquery-ui-core', 'jquery-ui-datepicker'));
+	wp_enqueue_script('kodex_plugin', plugin_dir_url(__FILE__).'script.js', array('jquery', 'jquery-ui-core', 'jquery-ui-datepicker'));
 }```
