@@ -6,9 +6,20 @@ This files are created with the [jQueryUI ThemeRoller](http://jqueryui.com/theme
 
 The jquery-ui.css and jquery-ui.min.css files are including both structure and theme. The index.html file is an example page with many jQueryUI components.
 
+Screenshots
+--------------
+
+1. Datepicker, Accordion, Tabs
+![enter image description here](http://kodex.pierros.fr/wp-content/uploads/screenshot-11.png)
+
+2. Slider, Progressbar, Buttons & Selectmenu, Icons
+![enter image description here](http://kodex.pierros.fr/wp-content/uploads/screenshot-21.png)
+
+3. Dialog
+![enter image description here](http://kodex.pierros.fr/wp-content/uploads/screenshot-31.png)
+
 Usage
 -----
-
 To include this theme in your plugin, use PHP code :
 
 ```php
