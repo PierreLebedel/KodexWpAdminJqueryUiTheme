@@ -18,7 +18,7 @@ class jQueryUI{
 
 	public function admin_enqueue_scripts(){
 		wp_enqueue_style('test_jqueryui', plugin_dir_url( __FILE__ ).'jqueryui/jquery-ui.min.css');
-		wp_enqueue_script('test_jqueryui', plugin_dir_url( __FILE__ ).'jqueryui/jquery-ui.min.js');
+		wp_enqueue_script('test_jqueryui', plugin_dir_url( __FILE__ ).'jqueryui/external/jquery-ui.min.js');
 		wp_enqueue_script('test_jqueryui_demo', plugin_dir_url( __FILE__ ).'script.js', array('test_jqueryui'));
 		//wp_enqueue_script('jquery_demo', plugin_dir_url( __FILE__ ).'script.js', array('jquery', 'jquery-ui-core', 'jquery-ui-datepicker'), '', true);
 	}
@@ -132,26 +132,10 @@ class jQueryUI{
 
 
 
-<!-- Highlight / Error -->
-<h2 class="demoHeaders">Highlight / Error</h2>
-<div class="ui-widget">
-	<div class="ui-state-highlight ui-corner-all" style="margin-top: 20px; padding: 0 .7em;">
-		<p><span class="ui-icon ui-icon-info" style="float: left; margin-right: .3em;"></span>
-		<strong>Hey!</strong> Sample ui-state-highlight style.</p>
-	</div>
-</div>
-<br>
-<div class="ui-widget">
-	<div class="ui-state-error ui-corner-all" style="padding: 0 .7em;">
-		<p><span class="ui-icon ui-icon-alert" style="float: left; margin-right: .3em;"></span>
-		<strong>Alert:</strong> Sample ui-state-error style.</p>
-	</div>
-</div>
-
 
 
 <!-- Button -->
-<h2 class="demoHeaders">Button & Selectmenu</h2>
+<h2 class="demoHeaders">Buttons & Selectmenu</h2>
 <button id="button">A button element</button>
 <form style="margin-top: 1em;">
 	<div id="radioset">
